@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <h1>
+      <span class="tic">Tic</span> <span class="tac">Tac</span>
+      <span class="toe">Toe</span>
+    </h1>
+    <div id="board" class="board">
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+    </div>
+
+    <h1 id="player-turn" class="player-turn"></h1>
+
+    <div id="status" class="status">
+      <div id="status-message" class="status-message"></div>
+      <button type="reset" id="restart-btn" class="restart-btn">Restart</button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
