@@ -108,3 +108,5 @@ restartBtn.addEventListener('click', () => {
     })
     startGame()
 })
+
+
